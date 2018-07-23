@@ -48,7 +48,7 @@ int main(){
 		}
 	}
 	printf("Check other player hand size: %d, expected 1\n", G.handCount[currentPlayer]);
-	assertTrue(G.handCount[G.whoseTurn], 1);
+	assertTrue(G.handCount[currentPlayer], 1);
 
 	return 0;	
 }
